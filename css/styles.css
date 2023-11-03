@@ -64,3 +64,34 @@ button {
         transform: translate(0, 0);
     }
 }
+
+/* Estilos para el fondo oscuro y el video emergente */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    z-index: 1;
+}
+
+#videoPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+#closeButton {
+    position:fixed;
+    transform: translate(450%, 500%);
+    background: #fff;
+    color: #007acc;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
