@@ -90,10 +90,11 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    max-height:50rem;
 }
 #closeButton {
     position:fixed;
-    transform: translate(450%, 500%);
+    transform: translate(400%, 300%);
     background: #fff;
     color: #007acc;
     border: none;
