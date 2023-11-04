@@ -21,6 +21,7 @@ body {
     background: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
     padding: 20px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Estilos para el título */
@@ -46,6 +47,8 @@ button {
     color: #fff; /* Texto en blanco */
     border: none;
     border-radius: 5px;
+    font-family: 'Poppins';
+    width: 4rem;
 }
 
 /* Estilos para el botón 'No' cuando se mueve */
@@ -76,7 +79,10 @@ button {
     background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
     z-index: 1;
 }
-
+#overlay h1{
+    color: rgb(255, 255, 255);
+    margin-top: 4rem;
+}
 #videoPopup {
     display: none;
     position: fixed;

@@ -30,7 +30,6 @@ function hideVideo() {
 // Asigna la función showVideo al evento click del botón "Sí"
 siBtn.addEventListener("click", showVideo);
 
-// Asigna la función hideVideo al evento click del video emergente (para cerrarlo)
-videoPopup.addEventListener("click", hideVideo);
-
+// Asigna la función hideVideo al evento click del botón de cierre
 closeButton.addEventListener("click", hideVideo);
+
