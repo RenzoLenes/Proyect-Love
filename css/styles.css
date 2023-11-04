@@ -81,7 +81,7 @@ button {
 }
 #overlay h1{
     color: rgb(255, 255, 255);
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 #videoPopup {
     display: none;
@@ -90,11 +90,12 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    max-height:50rem;
+    max-height:35rem;
 }
+
 #closeButton {
     position:fixed;
-    transform: translate(400%, 300%);
+    transform: translate(10rem,10rem);
     background: #fff;
     color: #007acc;
     border: none;
